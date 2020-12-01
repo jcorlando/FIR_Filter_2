@@ -1,6 +1,5 @@
 `timescale 1ns / 1ps
-
-module delay_register # (parameter WL = 8)
+module delay_register # ( parameter WL = 8 )
 (
     input CLK,
     input [WL - 1 : 0] in,
